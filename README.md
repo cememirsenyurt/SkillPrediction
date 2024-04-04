@@ -9,5 +9,3 @@ Typically, we model the skill of each player as a variable, and use the game out
 We compared the ability of model to predict the winner of new (unseen) games to simple approaches, such as fraction of games won, number of games played, etc.
 
 We tried to evaluate how many games are required to accurately predict the players' skill levels / win probability by decreasing the amount of training data available and observing the performance. Also we tried to evaluate how quickly we can determine a new players' skill by either random game choices or carefully chosen games (matched based on estimated skill level).
-
-We experimented with learning a more complex model, for example taking into account game features (player's selected character, for example; or a bias for the player who goes first in a turn-based game) or additional latent scores (such as offensive and defensive skill) along with a correspondingly more elaborate probability of win function.
